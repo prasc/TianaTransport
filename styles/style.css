@@ -199,7 +199,7 @@ header {
   position: relative;
   text-align: center;
   z-index: 0;
-  height: 500px;
+  height: 700px;
 }
 
 header .header-image-text {
@@ -222,10 +222,10 @@ header .header-image-text p {
 }
 
 header .header-image-container {
-  height: 500px;
+  height: 700px;
   width: 100%;
   position: relative;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 header .header-image-container img {
@@ -237,7 +237,7 @@ header .header-image-container img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 500px;
+  height: 700px;
 }
 
 header .header-image-container .top {
@@ -511,26 +511,17 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto;
 }
 
-footer h4 {
-  font-weight: 600;
+footer div {
+  width: 50%;
+  text-align: center;
 }
 
-footer p {
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-footer a {
-  font-family: "Open Sans";
-  font-size: 1.1rem;
-  color: red;
-}
-
-footer img {
-  width: 60px;
+.copyright {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 1115px) {
@@ -571,7 +562,7 @@ footer img {
   form button {
     display: block;
     margin-top: 20px;
-    background: red;
+    background: #4492cb;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     color: white;
@@ -649,19 +640,6 @@ footer img {
 }
 
 @media only screen and (max-width: 1000px) {
-  footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  footer div {
-    width: 50%;
-  }
   .stay-conntected {
     margin-left: auto;
   }
@@ -823,7 +801,7 @@ footer img {
   form button {
     display: block;
     margin-top: 20px;
-    background: red;
+    background: #4492cb;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     color: white;
@@ -838,25 +816,6 @@ footer img {
   }
   form button:hover {
     color: black;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-  }
-  footer div {
-    width: 80%;
-    margin: 0 auto;
   }
 }
 
