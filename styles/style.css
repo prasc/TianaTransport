@@ -93,7 +93,7 @@ nav {
 
 .navbar-container img {
   height: 75px;
-  width: 97px;
+  width: 150px;
 }
 
 .navbar-container .menu-items {
@@ -109,7 +109,7 @@ nav {
 }
 
 .contact-button {
-  background: red;
+  background: #4492cb;
   padding: 0.5rem 1rem;
   border-radius: 5%;
   color: white;
@@ -127,7 +127,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #4dbe74;
 }
 
 .menu-items a {
@@ -484,7 +484,7 @@ form label {
 form button {
   display: block;
   margin-top: 20px;
-  background: red;
+  background: #4492cb;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   color: white;

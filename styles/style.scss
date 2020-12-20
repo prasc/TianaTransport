@@ -96,7 +96,7 @@ nav {
   opacity: 0.8;
   img {
     height: 75px;
-    width: 97px;
+    width: 150px;
   }
   .menu-items {
     display: flex;
@@ -106,7 +106,7 @@ nav {
 }
 
 .contact-button {
-  background: red;
+  background: #4492cb;
   padding: 0.5rem 1rem;
   border-radius: 5%;
   color: white;
@@ -124,7 +124,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #4dbe74;
 }
 
 .menu-items a {
@@ -406,7 +406,7 @@ form {
   button {
     display: block;
     margin-top: 20px;
-    background: red;
+    background: #4492cb;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     color: white;
@@ -542,8 +542,6 @@ footer {
     }
   }
 
-
-
   //----------------------------- Credentials
 
   .credentials {
@@ -576,9 +574,9 @@ footer {
     margin-left: auto;
   }
 
-   //----------------------------- Billing
+  //----------------------------- Billing
 
-   .billing {
+  .billing {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -680,7 +678,6 @@ footer {
     }
   }
 }
-
 
 @media only screen and (max-width: 750px) {
   //----------------------------- Delivery of Services
@@ -805,10 +802,10 @@ footer {
   //----------------------------- About
 
   .about {
-      div:first-of-type {
-        width: 100%;
-        min-width: 250px;
-      }
+    div:first-of-type {
+      width: 100%;
+      min-width: 250px;
+    }
     div:last-of-type {
       max-width: 320px;
       margin: 0 auto;
