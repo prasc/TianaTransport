@@ -277,32 +277,14 @@ header {
   h2 {
     margin-bottom: 2rem;
   }
+  img {
+    width: 55%;
+    margin-left: 20px;
+  }
 }
 
 .about {
   display: flex;
-  justify-content: space-between;
-
-  div:first-of-type {
-    width: 40%;
-    text-align: center;
-  }
-  div:last-of-type {
-    max-width: 50%;
-    p:first-of-type {
-      margin-top: 0;
-      padding-top: 0;
-    }
-  }
-}
-
-.frank-text {
-  h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.7;
-  }
 }
 
 //----------------------------- Credentials
@@ -444,42 +426,6 @@ footer {
 }
 
 @media only screen and (max-width: 1050px) {
-  //----------------------------- About
-
-  #about {
-    h2 {
-      margin-bottom: 10px;
-    }
-  }
-
-  .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    div:first-of-type {
-      width: 50%;
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 20px;
-    }
-    div:last-of-type {
-      width: 100%;
-      min-width: 700px;
-      margin: 0 auto;
-      p:first-of-type {
-        padding-top: 20px;
-      }
-    }
-    h4 {
-      font-family: "Open Sans", sans-serif;
-      font-size: 1.5rem;
-      font-weight: 300;
-      line-height: 1.7;
-    }
-  }
-
   //----------------------------- Credentials
 
   .credentials {
@@ -556,31 +502,6 @@ footer {
   }
 }
 
-@media only screen and (max-width: 814px) {
-  //----------------------------- About
-
-  .about {
-    div:first-of-type {
-      width: 80%;
-      min-width: 309px;
-    }
-    div:last-of-type {
-      width: 100%;
-      min-width: 500px;
-      margin: 0 auto;
-      p:first-of-type {
-        padding-top: 20px;
-      }
-    }
-
-    h4 {
-      font-size: 1.2rem;
-      line-height: 1.7;
-      width: 100%;
-    }
-  }
-}
-
 @media only screen and (max-width: 750px) {
   //----------------------------- Credentials
 
@@ -589,7 +510,6 @@ footer {
       width: 50%;
     }
   }
-
   //----------------------------- Form
 
   form {
@@ -618,63 +538,12 @@ footer {
   }
 }
 
-@media only screen and (max-width: 700px) {
-}
-
-@media only screen and (max-width: 650px) {
-  //----------------------------- About
-
-  .about {
-    div:last-of-type {
-      width: 100%;
-      min-width: 400px;
-      margin: 0 auto;
-      p:first-of-type {
-        padding-top: 20px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  //----------------------------- About
-
-  .about {
-    div:last-of-type {
-      width: 100%;
-      min-width: 300px;
-      margin: 0 auto;
-      p:first-of-type {
-        padding-top: 20px;
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 500px) {
   //----------------------------- Credentials
 
   .credentials {
     div {
       width: 90%;
-    }
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  //----------------------------- About
-
-  .about {
-    div:first-of-type {
-      width: 100%;
-      min-width: 250px;
-    }
-    div:last-of-type {
-      max-width: 320px;
-      margin: 0 auto;
-      p:first-of-type {
-        padding-top: 20px;
-      }
     }
   }
 }
