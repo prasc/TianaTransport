@@ -278,13 +278,14 @@ header {
     margin-bottom: 2rem;
   }
   img {
-    width: 55%;
+    width: 50%;
     margin-left: 20px;
   }
 }
 
 .about {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 //----------------------------- Credentials
@@ -426,50 +427,37 @@ footer {
 }
 
 @media only screen and (max-width: 1050px) {
-  //----------------------------- Credentials
+  //----------------------------- About
 
-  .credentials {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    div {
-      width: 35%;
-    }
+  #about {
     img {
-      width: 100;
+      width: 100%;
     }
+  }
+
+  .about {
+    display: block;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .stay-conntected {
-    margin-left: auto;
-  }
+  //----------------------------- Services
 
-  //----------------------------- Billing
-
-  .billing {
+  .services {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .billing-container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .billing-text-container {
-      width: 90%;
-      margin: 0 auto;
-    }
-    h2 {
-      font-size: 1.5rem;
-      text-align: left;
-    }
+    flex-wrap: wrap;
     div {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      width: 100%;
+      h4 {
+        text-align: center;
+        padding: 10px 0;
+      }
+      p {
+        width: 75%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: left;
+      }
     }
   }
 }
@@ -503,13 +491,6 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
-  //----------------------------- Credentials
-
-  .credentials {
-    div {
-      width: 50%;
-    }
-  }
   //----------------------------- Form
 
   form {
@@ -538,12 +519,17 @@ footer {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  //----------------------------- Credentials
-
-  .credentials {
+@media only screen and (max-width: 650px) {
+  footer {
+    display: flex;
+    flex-direction: column;
     div {
-      width: 90%;
+      width: 50%;
+      text-align: center;
+      margin: 15px auto;
+      p {
+        margin: 0;
+      }
     }
   }
 }

@@ -330,7 +330,7 @@ header .header-image-text p {
 }
 
 #about img {
-  width: 55%;
+  width: 50%;
   margin-left: 20px;
 }
 
@@ -338,6 +338,10 @@ header .header-image-text p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .credentials {
@@ -490,70 +494,34 @@ footer div {
 }
 
 @media only screen and (max-width: 1050px) {
-  .credentials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  #about img {
+    width: 100%;
   }
-  .credentials div {
-    width: 35%;
-  }
-  .credentials img {
-    width: 100;
+  .about {
+    display: block;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .stay-conntected {
-    margin-left: auto;
-  }
-  .billing {
+  .services {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-  .billing .billing-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .services div {
     width: 100%;
   }
-  .billing .billing-text-container {
-    width: 90%;
+  .services div h4 {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .services div p {
+    width: 75%;
     margin: 0 auto;
-  }
-  .billing h2 {
-    font-size: 1.5rem;
+    padding-bottom: 20px;
     text-align: left;
-  }
-  .billing div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
@@ -583,9 +551,6 @@ footer div {
 }
 
 @media only screen and (max-width: 750px) {
-  .credentials div {
-    width: 50%;
-  }
   form label {
     display: block;
   }
@@ -610,9 +575,23 @@ footer div {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .credentials div {
-    width: 90%;
+@media only screen and (max-width: 650px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div {
+    width: 50%;
+    text-align: center;
+    margin: 15px auto;
+  }
+  footer div p {
+    margin: 0;
   }
 }
 
