@@ -108,6 +108,11 @@ nav {
           align-items: center;
 }
 
+.navbar-container .menu-items img {
+  width: 40px;
+  height: 40px;
+}
+
 .contact-button {
   background: #4492cb;
   padding: 0.5rem 1rem;
