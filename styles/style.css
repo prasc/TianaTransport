@@ -108,7 +108,7 @@ nav {
           align-items: center;
 }
 
-.navbar-container .menu-items img {
+.navbar-container .menu-items .phoneimg {
   margin-top: 5px;
   width: 2rem;
   height: 2rem;
