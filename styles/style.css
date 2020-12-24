@@ -169,14 +169,9 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
   }
-  .menu-items:not(:last-child) {
+  .menu-items {
     display: none !important;
     width: 100%;
-  }
-  .menu-items:not(:last-child) img {
-    margin-top: 5px;
-    width: 2rem;
-    height: 2rem;
   }
   nav div:first-of-type {
     -webkit-box-orient: vertical;
