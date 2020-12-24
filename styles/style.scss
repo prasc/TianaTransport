@@ -105,6 +105,8 @@ nav {
     .phoneimg {
       width: 2rem;
       height: 2rem;
+      max-width: 32px !important;
+      max-height: 32px !important;
     }
   }
 }
@@ -176,10 +178,6 @@ a:hover {
     a {
       text-align: center;
       padding: 0.5rem 1rem;
-      .phoneimg {
-        width: 2rem;
-        height: 2rem;
-      }
     }
   }
 
