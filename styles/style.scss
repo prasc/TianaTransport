@@ -191,7 +191,7 @@ a:hover {
     .menu-items {
       .phone-link {
         img {
-          display: none;
+          display: none !important;
         }
       }
     }

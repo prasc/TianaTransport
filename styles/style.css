@@ -208,7 +208,7 @@ a:hover {
     display: flex !important;
   }
   .navbar-container .menu-items .phone-link img {
-    display: none;
+    display: none !important;
   }
 }
 
