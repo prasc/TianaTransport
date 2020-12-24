@@ -106,8 +106,8 @@ nav {
       display: flex;
       align-items: center;
       img {
-        width: 4rem;
-        height: 4rem;
+        width: 4rem !important;
+        height: 4rem !important;
       }
     }
   }
@@ -185,6 +185,12 @@ a:hover {
 
   .menu-items.active {
     display: flex !important;
+  }
+
+  .phone-link {
+    img {
+      display: none;
+    }
   }
 }
 

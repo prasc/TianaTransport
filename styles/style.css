@@ -118,8 +118,8 @@ nav {
 }
 
 .navbar-container .menu-items .phone-link img {
-  width: 4rem;
-  height: 4rem;
+  width: 4rem !important;
+  height: 4rem !important;
 }
 
 .contact-button {
@@ -206,6 +206,9 @@ a:hover {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+  }
+  .phone-link img {
+    display: none;
   }
 }
 
