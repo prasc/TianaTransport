@@ -207,7 +207,7 @@ a:hover {
     display: -ms-flexbox !important;
     display: flex !important;
   }
-  .phone-link img {
+  .navbar-container .menu-items .phone-link img {
     display: none;
   }
 }

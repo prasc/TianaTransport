@@ -187,9 +187,13 @@ a:hover {
     display: flex !important;
   }
 
-  .phone-link {
-    img {
-      display: none;
+  .navbar-container {
+    .menu-items {
+      .phone-link {
+        img {
+          display: none;
+        }
+      }
     }
   }
 }
