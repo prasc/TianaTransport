@@ -169,11 +169,11 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
   }
-  .menu-items {
+  .menu-items:not(:last-child) {
     display: none !important;
     width: 100%;
   }
-  .menu-items img {
+  .menu-items:not(:last-child) img {
     margin-top: 5px;
     width: 2rem;
     height: 2rem;

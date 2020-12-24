@@ -160,7 +160,7 @@ a:hover {
     display: flex;
   }
 
-  .menu-items {
+  .menu-items:not(:last-child) {
     display: none !important;
     width: 100%;
     img {
