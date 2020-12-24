@@ -163,6 +163,11 @@ a:hover {
   .menu-items {
     display: none !important;
     width: 100%;
+    img {
+      margin-top: 5px;
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
   nav div:first-of-type {

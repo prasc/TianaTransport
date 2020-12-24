@@ -173,6 +173,11 @@ a:hover {
     display: none !important;
     width: 100%;
   }
+  .menu-items img {
+    margin-top: 5px;
+    width: 2rem;
+    height: 2rem;
+  }
   nav div:first-of-type {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
