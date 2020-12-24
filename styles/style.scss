@@ -102,11 +102,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .phoneimg {
-      width: 2rem;
-      height: 2rem;
-      max-width: 32px !important;
-      max-height: 32px !important;
+    .phone-link {
+      display: flex;
+      align-items: center;
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
     }
   }
 }
@@ -178,12 +180,6 @@ a:hover {
     a {
       text-align: center;
       padding: 0.5rem 1rem;
-      .phoneimg {
-        width: 2rem;
-        height: 2rem;
-        max-width: 32px !important;
-        max-height: 32px !important;
-      }
     }
   }
 

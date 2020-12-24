@@ -108,11 +108,18 @@ nav {
           align-items: center;
 }
 
-.navbar-container .menu-items .phoneimg {
-  width: 2rem;
-  height: 2rem;
-  max-width: 32px !important;
-  max-height: 32px !important;
+.navbar-container .menu-items .phone-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container .menu-items .phone-link img {
+  width: 4rem;
+  height: 4rem;
 }
 
 .contact-button {
@@ -194,12 +201,6 @@ a:hover {
   nav .menu-items a {
     text-align: center;
     padding: 0.5rem 1rem;
-  }
-  nav .menu-items a .phoneimg {
-    width: 2rem;
-    height: 2rem;
-    max-width: 32px !important;
-    max-height: 32px !important;
   }
   .menu-items.active {
     display: -webkit-box !important;
