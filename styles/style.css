@@ -109,7 +109,6 @@ nav {
 }
 
 .navbar-container .menu-items .phoneimg {
-  margin-top: 5px;
   width: 2rem;
   height: 2rem;
 }
@@ -193,6 +192,10 @@ a:hover {
   nav .menu-items a {
     text-align: center;
     padding: 0.5rem 1rem;
+  }
+  nav .menu-items a .phoneimg {
+    width: 2rem;
+    height: 2rem;
   }
   .menu-items.active {
     display: -webkit-box !important;
